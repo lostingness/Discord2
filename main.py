@@ -37,7 +37,7 @@ TELEGRAM_API_URL = "https://my.lostingness.site/tgn.php?value={value}"
 VEHICLE_API_URL = "https://botfiles.serv00.net/vehicle/api.php?key=Am&reg={value}"
 
 # Bot Invite Link
-BOT_INVITE_LINK = "https://discord.com/oauth2/authorize?client_id=1429769934157905940&permissions=8&integration_type=0&scope=bot"
+BOT_INVITE_LINK = "https://discord.com/oauth2/authorize?client_id=1434813765681025076&permissions=8&integration_type=0&scope=bot"
 
 # Developer Information
 DEVELOPER_INFO = {
