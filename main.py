@@ -37,7 +37,7 @@ TELEGRAM_API_URL = "https://my.lostingness.site/tgn.php?value={value}"
 VEHICLE_API_URL = "https://botfiles.serv00.net/vehicle/api.php?key=Am&reg={value}"
 
 # Bot Invite Link
-BOT_INVITE_LINK = "https://discord.com/oauth2/authorize?client_id=1434813765681025076&permissions=8&integration_type=0&scope=bot"
+BOT_INVITE_LINK = "https://discord.com/oauth2/authorize?client_id=1429769934157905940&permissions=8&integration_type=0&scope=bot"
 
 # Developer Information
 DEVELOPER_INFO = {
@@ -1623,7 +1623,7 @@ async def handle_vehicle_response(ctx, search_value, data):
         try:
             await message.delete()
         except:
-        pass
+            pass
         return
     
     # Check for mobile number
@@ -1651,7 +1651,7 @@ async def handle_vehicle_response(ctx, search_value, data):
         try:
             await message.delete()
         except:
-        pass
+            pass
         return
     
     # Success response with mobile number
@@ -1715,7 +1715,7 @@ async def handle_telegram_response(ctx, search_value, data):
         try:
             await message.delete()
         except:
-        pass
+            pass
         return
     
     # Check if phone info is available
@@ -1753,7 +1753,7 @@ async def handle_telegram_response(ctx, search_value, data):
         try:
             await message.delete()
         except:
-        pass
+            pass
         return
     
     # Success response with phone info
@@ -1827,7 +1827,7 @@ async def handle_standard_response(ctx, search_value, data, search_type):
         try:
             await message.delete()
         except:
-        pass
+            pass
         return
     
     # Single record response
@@ -1855,7 +1855,7 @@ async def handle_list_response(ctx, search_value, data, search_type):
         try:
             await message.delete()
         except:
-        pass
+            pass
         return
     
     total_records = len(data)
